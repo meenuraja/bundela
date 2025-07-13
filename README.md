@@ -1,2 +1,3 @@
 # Bundela
-this is my first repotories
+this is my first repositor
+ 
