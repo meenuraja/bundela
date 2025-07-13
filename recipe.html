@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Recipes</title>
+  <link rel="stylesheet" href="cown.css" />
+</head>
+<body class="recipe-page">
+  <header>
+    <h1>Here's Your All Dishes For You 🫕</h1>
+  </header>
+
+  <div class="section-row">
+    <!-- Sweet Section -->
+    <div class="sweet-section">
+      <h2>Sweets</h2>
+      <ul>
+        <li onclick="toggleRecipe('gulab')"> 🍩Gulab Jamun
+          <div id="gulab" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Khoya, Sugar, Cardamom</p>
+            <p><strong>Instructions:</strong> Fry khoya balls and dip in sugar syrup.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('rasgulla')"> 💧Rasgulla
+          <div id="rasgulla" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Chhena, Sugar, Water</p>
+            <p><strong>Instructions:</strong> Boil chhena balls in sugar syrup.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('besan laddu')"> 🍪besan laddu
+          <div id="besan laddu" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Ingredients: Besan, ghee, sugar, cardamom.</p>
+            <p><strong>Instructions:</strong>Roast besan in ghee, cool slightly, mix sugar & elaichi, roll into laddoos.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('mava burfi')"> 🍫mava burfi
+          <div id="mava burfi" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Mava (khoya), sugar, cardamom, pistachios.</p>
+            <p><strong>Instructions:</strong> Cook mava on low flame till soft. Add sugar and cardamom, stir till thick. Set in a plate, garnish with pistachios, cool and cut into pieces</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('kaju katli')"> 💎kaju katli
+          <div id="kaju katli" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Cashews (kaju), sugar, water, cardamom (optional).</p>
+            <p><strong>Instructions:</strong> Fry khoya balls and dip in sugar syrup.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('jalebi')"> 🔸jalebi
+          <div id="jalebi" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Maida (all-purpose flour), curd, sugar, water, saffron, ghee/oil.</p>
+            <p><strong>Instructions:</strong> Make smooth batter with maida and curd. Ferment it, pipe into hot ghee in spiral shape. Fry till crisp, dip in warm sugar syrup.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('peda')"> 🟤peda
+          <div id="peda" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Mawa (khoya), sugar, cardamom powder, ghee, saffron (optional).</p>
+            <p><strong>Instructions:</strong> Cook mawa in ghee till soft. Add sugar and cardamom, mix well. Cool slightly, shape into small pedas</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('modak')"> 🪔modak
+          <div id="modak" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Rice flour, jaggery, coconut, cardamom.</p>
+            <p><strong>Instructions:</strong> Make filling with coconut & jaggery. Prepare rice flour dough. Fill, shape into modak, and steam till soft</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('cham-cham')"> 🍥cham-cham
+          <div id="cham-cham" class="recipe-detail">
+            <p><strong>Ingredients:</strong>  Chhena, sugar, water, cardamom, dry fruits.</p>
+            <p><strong>Instructions:</strong> Shape chhena into ovals, boil in sugar syrup, cool, garnish with dry fruits or cream..</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('rabri')"> 🥛rabri
+          <div id="rabri" class="recipe-detail">
+            <p><strong>Ingredients:</strong>  Full cream milk, sugar, cardamom, dry fruits.</p>
+            <p><strong>Instructions:</strong>Boil milk, reduce to thick consistency. Add sugar, cardamom, and dry fruits. Chill and serve.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('sooji halwa')"> 🍮sooji halwa
+          <div id="sooji halwa" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Sooji, ghee, sugar, water, cardamom, dry fruits.</p>
+            <p><strong>Instructions:</strong>  Roast sooji in ghee. Add hot water and sugar. Cook till thick. Garnish with dry fruits.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('gajar halwa')"> 🥕gajar halwa
+          <div id="gajar halwa" class="recipe-detail">
+            <p><strong>Ingredients:</strong>Grated carrot, milk, sugar, ghee, dry fruits.</p>
+            <p><strong>Instructions:</strong>  Cook carrots in milk till soft. Add sugar, ghee, and dry fruits. Stir till thick and glossy..</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('malpua')"> 🍯malpua
+          <div id="malpua" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Maida, milk, sugar, cardamom, ghee.</p>
+            <p><strong>Instructions:</strong>  Make batter with maida & milk. Fry small pancakes in ghee. Dip in sugar syrup. Serve warm.</p>
+          </div>
+        </li>
+        <li onclick="toggleRecipe('rasmalai')"> 🥄rasmalai
+          <div id="rasmalai" class="recipe-detail">
+            <p><strong>Ingredients:</strong>  Chhena balls, milk, sugar, cardamom, saffron.</p>
+            <p><strong>Instructions:</strong>Boil chhena balls in sugar syrup. Soak in thickened milk flavored with cardamom and saffron.</p>
+          </div>
+        </li>
+        <!-- Add more sweet items here -->
+      </ul>
+    </div>
+
+
+
+
+
+    <!-- Vegetable Section -->
+    <div class="vege-section">
+      <h2>Vegetables</h2>
+      <ul>
+        <li onclick="toggleRecipe('paneer')"> 🧈Paneer Butter Masala       <!--paneer recipe-->
+          <div id="paneer" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Paneer, Tomato, Butter, Spices</p>
+            <p><strong>Instructions:</strong> Cook tomato gravy, add paneer & butter.</p>
+          </div>
+        </li>
+
+        <li onclick="toggleRecipe('aloo')"> 🥔Aloo Gobi
+          <div id="aloo" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Aloo, Gobi, Spices</p>
+            <p><strong>Instructions:</strong> Cook with masala.</p>
+          </div>
+        </li>
+
+        <li onclick="toggleRecipe('paneer')"> 🍲kadhai paneer
+          <div id="paneer" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Paneer, capsicum, onion, tomato, spices.</p>
+            <p><strong>Instructions:</strong> Stir-fry paneer & veggies in spicy kadhai masala.</p>
+          </div>
+        </li> 
+
+        <li onclick="toggleRecipe('paneer')"> 🔥Shahi paneer
+          <div id="paneer" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Paneer, cream, cashew, tomato, butter, spices.</p>
+            <p><strong>Instructions:</strong> Make creamy gravy with cashew-tomato blend. Add paneer and simmer.</p>
+          </div>
+        </li>
+
+        <li onclick="toggleRecipe('malai')"> 🥘malai kofta
+          <div id="malai" class="recipe-detail">
+            <p><strong>Ingredients:</strong>  Paneer, potato, cream, tomato, spices.</p>
+            <p><strong>Instructions:</strong> Fry paneer-potato koftas. Serve in rich creamy tomato gravy.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('palak ')"> 🌿Palak Paneer
+          <div id="palak" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Spinach, paneer, garlic, onion, tomato, spices.</p>
+            <p><strong>Instructions:</strong> Cook and puree palak. Add paneer and spices, simmer gently.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('mix')"> 🥕🥦🌽mix veg
+          <div id="mix" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Carrot, beans, capsicum, cauliflower, peas, spices.</p>
+            <p><strong>Instructions:</strong> Cook all veggies in onion-tomato masala till soft and spicy.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('matar')">🟢 Matar Paneer
+          <div id="matar" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Green peas, paneer, onion, tomato, spices.</p>
+            <p><strong>Instructions:</strong>  Cook peas and paneer in spicy onion-tomato gravy.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('chana')"> 🥗Chana Masala
+          <div id="chana" class="recipe-detail">
+            <p><strong>Ingredients:</strong>Boiled chickpeas, onion, tomato, spices.</p>
+            <p><strong>Instructions:</strong>Cook chana in spicy gravy till thick and flavorful.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('allo')"> 🥔dum allo
+          <div id="allo" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Baby potatoes, yogurt, spices.</p>
+            <p><strong>Instructions:</strong> Fry potatoes and cook in rich yogurt-based gravy.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('baingan')"> 🍆baingan bharta
+          <div id="baingan" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Roasted brinjal, onion, tomato, garlic, spices.</p>
+            <p><strong>Instructions:</strong>  Roast and mash baingan, cook with onion-tomato masala.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('kolhapuri')">🍳 Veg-kolhapuri
+          <div id="kolhapuri" class="recipe-detail">
+            <p><strong>Ingredients:</strong>Mixed vegetables, coconut, spices, Kolhapuri masala.</p>
+            <p><strong>Instructions:</strong> Cook veggies in fiery Kolhapuri-style masala.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('bhindi')"> 🥒Bhindi Masala
+          <div id="bhindi" class="recipe-detail">
+            <p><strong>Ingredients:</strong>Okra (bhindi), onion, tomato, spices.</p>
+            <p><strong>Instructions:</strong> Stir-fry bhindi with masala till soft and dry.</p>
+          </div>
+        </li> 
+
+        <!-- Add more veggie items here -->
+      </ul>
+    </div>
+
+
+
+
+
+    <!-- Salad Section -->
+    <div class="salad-section">
+      <h2>Salad</h2>
+      <ul>
+        <li onclick="toggleRecipe('fruit')"> 🍓Fruit Salad
+          <div id="fruit" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Mixed Fruits, Honey, Lemon</p>
+            <p><strong>Instructions:</strong> Mix fruits with honey and lemon.</p>
+          </div>
+        </li>
+
+
+        <li onclick="toggleRecipe('green')"> 🥒Green Salad
+          <div id="green" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Cucumber, Onion, Tomato</p>
+            <p><strong>Instructions:</strong> Chop and mix with lemon juice.</p>
+          </div>
+        </li>
+
+        <li onclick="toggleRecipe('Russian')"> Russian salad 
+          <div id="Russian" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Boiled veggies, mayo, pineapple, salt, pepper.</p>
+            <p><strong>Instructions:</strong>Mix all with mayo and chill before serving.</p>
+          </div>
+        </li>
+
+        <li onclick="toggleRecipe('sprouts')"> 🌱sprouts salad
+          <div id="sprouts" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Moong sprouts, onion, tomato, lemon, spices.</p>
+            <p><strong>Instructions:</strong>  Mix sprouts with chopped veggies & lemon juice.</p>
+          </div>
+        </li> 
+
+        <li onclick="toggleRecipe('kachumber')"> 🧅kachumber salad
+          <div id="kachumber" class="recipe-detail">
+            <p><strong>Ingredients:</strong>  Onion, tomato, cucumber, coriander, lemon.</p>
+            <p><strong>Instructions:</strong>  Finely chop all and mix with salt & lemon.</p>
+          </div>
+        </li>
+
+        <li onclick="toggleRecipe('chana')"> 🟤hickpea Salad (Chana Salad)
+          <div id="chana" class="recipe-detail">
+            <p><strong>Ingredients:</strong>  Boiled chana, onion, tomato, spices, lemon.</p>
+            <p><strong>Instructions:</strong>Mix all ingredients and toss well.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('beetroot')"> 🥬beetroot salad
+          <div id="beetroot" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Boiled beetroot, onion, lemon, salt, pepper.</p>
+            <p><strong>Instructions:</strong>Slice beetroot, mix with other ingredients.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('Corn')"> 🌽Corn & Mayo Salad
+          <div id="corn" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Boiled sweet corn, mayo, pepper, salt.</p>
+            <p><strong>Instructions:</strong> Cook all veggies in onion-tomato masala till soft and spicy.</p>
+          </div>
+        </li> 
+        
+        <li onclick="toggleRecipe('greek')"> 🧀Greek Salad
+          <div id="greek" class="recipe-detail">
+            <p><strong>Ingredients:</strong> Cucumber, tomato, olives, feta, olive oil.</p>
+            <p><strong>Instructions:</strong> Chop veggies, add feta & olives, drizzle with oil.</p>
+          </div>
+        </li> 
+        <!-- Add more salad items here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="recipe.js"></script>
+</body>
+</html>
