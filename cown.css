@@ -172,6 +172,85 @@ footer {
   /*transition: color 0.2s;*/
   padding: 0 20px;
 }
+
+
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  gap:300px;
+  padding: 30px;
+}
+
+.juice-area, .paratha-area {
+  width: 300px;
+}
+
+
+.juice-area h2 {
+  color: #ff7043;
+  margin-top: 30px;
+  padding: 0 20px; 
+} 
+.juice-area li:hover {
+  color: #ff7043;
+  font-weight: bold;
+}
+
+.juice-area li {
+  cursor: pointer;
+  padding: 8px 0;
+  color: black;
+  font-weight: bold;
+  /*transition: color 0.2s;*/
+  padding: 0 20px;
+}
+
+.paratha-area h2 {
+  color: #ff7043;
+  margin-top: 30px;
+  padding: 0 20px; 
+} 
+.paratha-area li:hover {
+  color: #ff7043;
+  font-weight: bold;
+}
+
+.paratha-area li {
+  cursor: pointer;
+  padding: 8px 0;
+  color: black;
+  font-weight: bold;
+  /*transition: color 0.2s;*/
+  padding: 0 20px;
+}
+
+
+.aachar-area h2 {
+  color: #ff7043;
+  margin-top: 30px;
+  padding: 0 20px; 
+} 
+.aachar-area li:hover {
+  color: #ff7043;
+  font-weight: bold;
+}
+
+.aachar-area li{
+  cursor: pointer;
+  padding: 8px 0;
+  color: black;
+  font-weight: bold;
+  /*transition: color 0.2s;*/
+  padding: 0 20px;
+}
+
+
+
+
+
 #recipe-detail {
   margin-top: 30px;
 }
@@ -199,3 +278,179 @@ li {
   font-weight: bold;
   padding: 8px 0;
 }
+
+
+
+
+
+
+
+
+.search-container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 0;
+}
+
+#searchBar {
+  width: 60%;
+  max-width: 500px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  outline: none;
+  transition: 0.3s ease;
+}
+
+#searchBar:focus {
+  border-color: #ff7043;
+  box-shadow: 0 0 8px rgba(255,112,67,0.5);
+}
+
+
+
+.email-link {
+  color: grey;         /* Jo bhi color chahiye yahan likho */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email-link:hover {
+  color: blue;          /* Hover karne par dusra color */
+  text-decoration: underline;
+}
+
+
+/* Responsive for Tablets */
+@media (max-width: 768px) {
+  .section-row, .second-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sweet-section,
+  .vege-section,
+  .salad-section,
+  .juice-area,
+  .paratha-area {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+/* Responsive for Mobile */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .recipe-detail {
+    font-size: 0.9rem;
+  }
+
+  .sweet-section,
+  .vege-section,
+  .salad-section,
+  .juice-area,
+  .paratha-area {
+    width: 100%;
+  }
+}
+
+
+
+/* About Section Styling */
+
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  background-color: #fffaf2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2{
+  color: #ff7043;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*contact section */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  margin: 40px 20px;
+  background-color: #fff8f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.social-links {
+  margin-top: 40px;
+}
+
+.social-links h2 {
+  font-size: 1.8rem;
+  color: #ff7043;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.social-links li {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff7043;
+}
+
+.social-links img.icon {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
