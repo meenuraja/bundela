@@ -54,3 +54,21 @@ function toggleRecipe(id) {
     detail.style.display = 'block';
   }
 }
+
+
+
+
+
+function filterRecipes() {
+  const input = document.getElementById("searchBar").value.toLowerCase();
+  const allItems = document.querySelectorAll("li");
+
+  allItems.forEach(item => {
+    const text = item.textContent.toLowerCase();
+    if (text.includes(input)) {
+      item.style.display = "list-item";
+    } else {
+      item.style.display = "none";
+    }
+  });
+}
